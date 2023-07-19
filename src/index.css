@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #090580;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    max-width: 350px;
+    padding: 20px;
+    background-color: #46458C;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 0.25rem black);
+}
+
+.app h1 {
+    color: #E8A9A9;
+}
+
+
+.app .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.app .timerContainer .timer .controls button {
+    padding: 20px 10px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #E8A9A9;
+    border: 3px solid #090580;
+    border-radius: 5px;
+}
